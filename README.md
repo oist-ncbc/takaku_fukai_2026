@@ -58,7 +58,7 @@ Due to the large size of trained model weights, they are **not** directly hosted
 ---
 
 ## 5. Planned Improvements  
-A cleaned and documented version of the code will be prepared once the manuscript enters peer review.  
+A cleaned and documented version of the code will be prepared.  
 The planned updates include:  
 - A reorganized directory structure  
 - Enhanced comments and docstrings
