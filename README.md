@@ -11,25 +11,47 @@ All code is provided for transparency and reproducibility. Please note that this
 ---
 
 ## 2. Repository Contents  
-- `scripts/` — Core simulation and training scripts for the PFC-Re-HPC network.  
-- `notebooks/` — Jupyter notebooks for analysis and visualization (large and environment-dependent).  
-- `models/` — Trained model checkpoints (not publicly hosted due to size; see Section 4).  
-- `requirements.txt` — Python package dependencies (minimum).  
-- `README.md` — This file.
+
+All files are provided in a single directory for convenience.  
+They can be broadly categorized into three functional groups: **training scripts**, **analysis notebooks**, and **visualization notebooks**.
+
+### Model Training Scripts
+- **`PFC_HPC_Thalamo_*.py`**  
+  Training scripts for the **three-module (PFC–Re–HPC)** network model.  
+  Each file corresponds to a specific behavioral task variant (three in total).  
+
+- **`v4_3_*.py`**  
+  Training scripts for the **two-module (PFC–HPC)** model, used for comparison and ablation studies.  
+
+### Analysis Notebooks
+- **`Testing_note_*.ipynb`**  
+  Jupyter notebooks for post-training analysis of network activity and representation structure.  
+  Two versions are provided: one for the **standard task** and one for the **H-task** variant.
+  Note that these notebooks require pre-trained model outputs and may not execute directly without access to trained weights.
+
+
+### Visualization Notebooks
+- **`FigMake_*.ipynb`**  
+  Jupyter notebooks for figure generation and visualization.  
+  They combine processed analysis outputs to reproduce the key plots shown in the manuscript (e.g., PCA embeddings, trial trajectories).  
+  Note that these notebooks require pre-trained model outputs and may not execute directly without access to trained weights.
+
+---
+
+**Note:**  
+All scripts were used as part of the actual computational experiments reported in the study.  
+They are provided *as-is* for transparency and reproducibility, and may not be fully modular or optimized for external execution.
 
 ---
 
 ## 3. Usage Notes  
-- The code was developed under Python 3.9 and PyTorch 1.x; compatibility with other versions is not guaranteed.  
-- A GPU with ~10 GB memory or more is recommended for full training.  
-- For easier experimentation, a reduced-scale version of the model may be created by adjusting parameters in `scripts/train_model.py` (e.g., lowering hidden units, fewer epochs).  
+- The code was developed under Python 3.9 and PyTorch 2.0; compatibility with other versions is not guaranteed.  
 - Because this is the version used for the study, its structure may appear messy, with limited comments and less modularization than production-ready code.
 
 ---
 
 ## 4. Data, Notebooks & Models Availability  
-Due to the large size of notebooks and trained model weights, they are **not** directly hosted in this repository.  
-- Full Jupyter notebooks (with full output) can be made available upon request.  
+Due to the large size of trained model weights, they are **not** directly hosted in this repository.  
 - Trained model checkpoints are available from the corresponding author upon reasonable request.  
 - Where feasible, a cleaned version of the notebooks and model weights will be made publicly available via Zenodo or another data repository upon article acceptance.
 
@@ -39,22 +61,6 @@ Due to the large size of notebooks and trained model weights, they are **not** d
 After the manuscript is accepted and published, a cleaned and documented version of the code will be released. It will include:
 - A reorganized directory structure  
 - Enhanced comments and docstrings  
-- Simplified example scripts for demonstration purposes  
-- Possibly a Docker / Conda environment file for easier reproducibility
-
----
-
-## 6. Contact & License  
-Maintained by Munenori Takaku.  
-Contact: [email address or GitHub handle]  
-License: MIT License (see `LICENSE` file)  
-Feel free to fork the repository and adapt it for your research, provided proper citation of the original study.
-
----
-
-## 7. Citation  
-If you use the code or rely on the results, please cite:  
-> Takaku, M., *Thalamic regulation improves representation learning in a prefrontal-thalamo-hippocampal network model*. (Submitted to eLife)
 
 ---
 
