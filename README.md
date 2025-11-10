@@ -58,9 +58,12 @@ Due to the large size of trained model weights, they are **not** directly hosted
 ---
 
 ## 5. Planned Improvements  
-After the manuscript is accepted and published, a cleaned and documented version of the code will be released. It will include:
+A cleaned and documented version of the code will be prepared once the manuscript enters peer review.  
+The planned updates include:  
 - A reorganized directory structure  
-- Enhanced comments and docstrings  
+- Enhanced comments and docstrings
+- Refactoring key components (model, training, analysis) into importable Python modules  
+
 
 ---
 
