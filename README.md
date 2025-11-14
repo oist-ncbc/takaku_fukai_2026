@@ -36,6 +36,10 @@ They can be broadly categorized into three functional groups: **training scripts
   They combine processed analysis outputs to reproduce the key plots shown in the manuscript (e.g., PCA embeddings, trial trajectories).  
   Note that these notebooks require pre-trained model outputs and may not execute directly without access to trained weights.
 
+
+### Optional files
+- **`stay1.csv`**
+  CSV file for small noisy activity in the delay period. 
 ---
 
 **Note:**  
