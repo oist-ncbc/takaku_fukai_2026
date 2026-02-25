@@ -1,5 +1,5 @@
 # PFC-Re-HPC-Model-Codes  
-**Repository:** https://github.com/MunenoriTakaku/PFC-Re-HPC-model-codes.git  
+**Repository:** https://github.com/MunenoriTakaku/PFC-Re-HPC-model-codes.git
 **Title of the Study:** *Thalamic regulation improves representation learning in a prefrontal-thalamo-hippocampal network model*
 
 ---
