@@ -5,7 +5,7 @@
 ---
 
 ## 1. Overview  
-This repository contains the original scripts used in the present study submitted to eLife. The study investigates how thalamic regulation contributes to representation learning within a network model combining prefrontal cortex (PFC), thalamus (Re), and hippocampus (HPC).  
+This repository contains the original scripts used in the present study submitted to iScience. The study investigates how thalamic regulation contributes to representation learning within a network model combining prefrontal cortex (PFC), thalamus (Re), and hippocampus (HPC).  
 All code is provided for transparency and reproducibility. Please note that this is the research-use version of the code, and is not yet optimized for broad public use.
 
 ---
