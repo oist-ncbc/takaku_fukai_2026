@@ -1,5 +1,4 @@
 # PFC-Re-HPC-Model-Codes  
-**Repository:** https://github.com/MunenoriTakaku/PFC-Re-HPC-model-codes.git
 
 **Title of the Study:** *Improved spatial memory in a modular network mimicking the prefrontal-thalamo-hippocampal triangular circuit*
 
